@@ -1,0 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="{% static 'css/dashboardnav.css' %}"/>
+</head>
+<div class = "dashheader">
+	<h1 class = "dashlogo">{{request.user}}'s Dashboard</h1>
+	<div class="dashheader-right">
+		<a href=>Add Expense</a>
+		<a href=>Add Income</a>
+		<a href= >View Settings</a>
+	</div>
+</div>
+</html>

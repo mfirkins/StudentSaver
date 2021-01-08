@@ -123,3 +123,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+#My ignores
+.DS_Store
+bin/
+include/
+lib/
+completestudent.sublime-project
+completestudent.sublime-workspace
+pyvenv.cfg
+secrets.py
+
+
